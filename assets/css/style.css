@@ -1,0 +1,342 @@
+@media (min-width: 768px) {
+    .container {
+        min-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        min-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        min-width: 1140px;
+    }
+}
+
+* {
+    letter-spacing: 0.84px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.full-width {
+    max-width: 100%;
+}
+
+.hero-section {
+    padding-bottom: 0;
+    background-size: 100% 88%;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    padding: 0;
+    position: relative;
+    background-color: #F8F9FB;
+
+    max-height: 550px;
+}
+
+.section-heading {
+    font-size: 60px;
+}
+
+.section-secondary-content {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.section-button {
+    font-size: 24px;
+}
+
+.section-button button {
+    border-radius: 52px;
+    padding: 12px;
+}
+
+.section-image {
+    width: 600px;
+}
+
+.client-logo {
+    position: absolute;
+}
+
+.client-logo .container{
+    margin-top: -80px;
+}
+
+.logo-section {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 8px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 14px 36px 0 rgba(0,0,0,.08), 0 14px 16px 0 rgba(114,113,113,.05)
+}
+
+.category-section, 
+.register-section, 
+.other-links-section,
+.subscribe-section,
+.testimonial-section {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.category-section h1 {
+    font-size: 32px;
+}
+
+.category-section .row {
+    margin-top: 20px;
+}
+
+.category-section .row .card {
+    padding: 10px;
+    border: none;
+}
+
+.category-section .row .card-body {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 20px #7474741A;
+    opacity: 1;
+}
+
+.category-section .row .card-body:hover {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 30px 40px #74747440;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.category-section .row .card-body .icon-container {
+    margin-bottom: 12px;
+}
+
+.category-section .row .card-body img {
+    padding: 12px;
+    background-color: #E2F4FF;
+    border-radius: 8px;
+}
+
+.category-section .row .card-body .card-title,
+.category-section .row .card-body .card-text {
+    margin-top: 20px;
+}
+
+.category-section .toggle-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.category-section .toggle-categories button {
+    border-radius: 50px;
+}
+
+.register-section {
+    padding: 20px 30px;
+    background-color: #F6F7F9;
+}
+
+.register-section .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testimonial-section .testimonial-image {
+    width: 400px;
+    height: 400px;
+}
+
+.testimonial-section .testimonial {
+    margin-top: 60px;
+}
+
+.testimonial-section .section-details .client-name {
+    font-size: 16px;
+    color: #181818;
+}
+
+.testimonial-section .section-details .client-title {
+    font-size: 14px;
+    color: #181818;
+    opacity: 0.5;
+}
+
+.testimonial-section .section-navigations button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #FAB8C4;
+    border-radius: 50px;
+}
+
+.testimonial-section .section-navigations button:focus {
+    border: none;
+    outline: none;
+}
+
+.register-section h1,
+.subscribe-section h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.subscribe-section {
+    padding: 60px 80px;
+    background-color: #F6F7F9;
+}
+
+.subscribe-section .row{
+    padding: 60px 120px;
+    background-color: #FAB8C4;
+    border-radius: 218px;
+    color: #fff;
+}
+
+.subscribe-section h1{
+    margin-bottom: 60px;
+}
+
+.subscription-input {
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-input input {
+    width: 520px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 50px;
+}
+
+.subscription-input input:focus {
+    border: none;
+    outline: none;
+}
+
+/* .subscription-input input::placeholder { 
+    text-align: center;
+} */
+
+.subscribe-section .inputWithIcon {
+    position: relative;
+}
+
+.subscribe-section .inputWithIcon img {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    padding: 0;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.subscribe-section .inputWithIcon span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.subscribe-section .inputWithIcon span button {
+    border-radius: 40px;
+    height: 40px;
+}
+
+.other-links-section {
+    background-color: #1B2E3D;
+}
+
+.other-links-section p {
+    color: #fff;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.other-links-section a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.other-links-section .more-link {
+    color: #FFDA55;
+}
+
+.other-links-section .social-links {
+    height: 16px;
+}
+
+
+
+.footer-section {
+    padding: 10px;
+    background-color: #101E2A;
+    color: #fff;
+}
+
+.top-level-container .main-section, .top-level-container .content-section {
+    padding: 20px;
+    background-color: #F8F9FB;
+}
+
+.top-level-container .main-section .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-level-container .main-section .nav-brand-and-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-level-container .main-section .brand .brand-logo {
+    height: 20px;
+    fill: #1C2333;
+}
+
+.top-level-container .main-section .nav-brand-and-links .nav-links {
+    margin-left: 40px;
+}
+
+.top-level-container .main-section .navbar .nav li {
+    margin-right: 20px;
+}
+
+.top-level-container .main-section .navbar .nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #181818;
+}
+
+.top-level-container .main-section .navbar .nav li a:hover {
+    font-size: 18px;
+    color: #181818;
+}
+
+.top-level-container .main-section .navbar .nav-buttons {
+    margin-right: 0;
+ }
+
+.top-level-container .main-section .navbar .nav-buttons button {
+   border-radius: 50px;
+}
